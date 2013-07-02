@@ -1,0 +1,32 @@
+#ifndef __C_DRIVE_API_H__
+#define __C_DRIVE_API_H__
+
+#include <string>
+#include <time.h>
+
+/* API */
+// CONSTANTS
+#define ATT_DIRECTORY 0x0002
+
+// TYPES
+typedef struct FILE_INFO {
+	std::wstring id;
+	std::wstring name;
+	long size;
+	int attributes;
+} FILE_INFO, *PFILE_INFO;
+
+typedef struct FILE_INFO_NODE {
+	PFILE_INFO info;
+	FILE_INFO_NODE *next;
+} FILE_INFO_NODE, *PFILE_INFO_NODE;
+
+typedef struct AuthData {
+	std::wstring accessToken;	
+	std::wstring tokenType;
+	std::wstring refreshToken;
+	time_t requestTime;
+	long expires;
+} AUTH_DATA, *PAUTH_DATA;
+
+#endif

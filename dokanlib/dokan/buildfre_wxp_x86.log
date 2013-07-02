@@ -1,0 +1,9 @@
+BUILD: Computing Include file dependencies:
+BUILD: e:\projects\dokanlib\dokan\sources(0): Unknown TARGETPATH value
+BUILD: Examining e:\projects\dokanlib\dokan directory for files to compile.
+Compiling (NoSync) e:\projects\dokanlib\dokan directory ********************
+'nmake.exe /nologo BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
+E:\WINDDK\3790~1.183\bin\makefile.new(1082) : fatal error U1050: Your .\sources. file must define the TARGETPATH= macro
+Stop.
+BUILD: nmake.exe failed - rc = 2
+Compile errors: not linking e:\projects\dokanlib\dokan directory ********************

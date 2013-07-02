@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sys - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSPF9.tmp" with contents
+[
+/nologo /Gz /MLd /W3 /GX /Zi /Oi /I "." /I "E:\WINDDK\3790.1830\inc\ddk" /I "E:\WINDDK\3790.1830\inc" /I "E:\WINDDK\3790.1830\inc\ddk\wxp" /I "E:\WINDDK\3790.1830\inc\crt" /I "E:\WINDDK\3790.1830\inc\ddk\wdm\wxp" /I "E:\WINDDK\3790.1830\inc\wxp" /D "WIN32" /D "_DEBUG" /D "_X86_" /D "i386" /D "STD_CALL" /D "CONDITION_HANDLING" /D "WIN32_LEAN_AND_MEAN" /D "NT_UP" /D "SRVDBG" /D "DBG" /D "_IDWBUILD" /D _WIN32_WINNT=0x0502 /D "USE_DBGPRINT" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\Projects\dokanlib\sys\cleanup.c"
+"E:\Projects\dokanlib\sys\create.c"
+"E:\Projects\dokanlib\sys\device.c"
+"E:\Projects\dokanlib\sys\directory.c"
+"E:\Projects\dokanlib\sys\dokan.c"
+"E:\Projects\dokanlib\sys\event.c"
+"E:\Projects\dokanlib\sys\fileinfo.c"
+"E:\Projects\dokanlib\sys\flush.c"
+"E:\Projects\dokanlib\sys\fscontrol.c"
+"E:\Projects\dokanlib\sys\init.c"
+"E:\Projects\dokanlib\sys\lock.c"
+"E:\Projects\dokanlib\sys\notification.c"
+"E:\Projects\dokanlib\sys\read.c"
+"E:\Projects\dokanlib\sys\timeout.c"
+"E:\Projects\dokanlib\sys\volume.c"
+"E:\Projects\dokanlib\sys\write.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSPF9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSPFA.tmp" with contents
+[
+ntoskrnl.lib hal.lib /nologo /entry:"DriverEntry" /incremental:no /pdb:"Debug/sys.pdb" /debug /machine:I386 /out:"Debug/sys.sys" /pdbtype:sept /libpath:"E:\WINDDK\3790.1830\libchk\i386" /libpath:"E:\WINDDK\3790.1830\lib\i386\checked" /subsystem:native /driver 
+.\Debug\cleanup.obj
+.\Debug\create.obj
+.\Debug\device.obj
+.\Debug\directory.obj
+.\Debug\dokan.obj
+.\Debug\event.obj
+.\Debug\fileinfo.obj
+.\Debug\flush.obj
+.\Debug\fscontrol.obj
+.\Debug\init.obj
+.\Debug\lock.obj
+.\Debug\notification.obj
+.\Debug\read.obj
+.\Debug\timeout.obj
+.\Debug\volume.obj
+.\Debug\write.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSPFA.tmp"
+<h3>Output Window</h3>
+Compiling...
+cleanup.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+create.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+device.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+directory.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+dokan.c
+E:\WINDDK\3790.1830\inc\ddk\wdm\wxp\wdm.h(24) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+event.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+fileinfo.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+flush.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+fscontrol.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+init.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+lock.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+notification.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+read.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+timeout.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+volume.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+write.c
+E:\WINDDK\3790.1830\inc\ddk\wxp\ntddk.h(23) : fatal error C1189: #error :  Compiler version not supported by Windows DDK
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+sys.sys - 16 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

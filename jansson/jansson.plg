@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jansson - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP41.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "./" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\git\jansson\dump.c"
+"E:\git\jansson\error.c"
+"E:\git\jansson\hashtable.c"
+"E:\git\jansson\load.c"
+"E:\git\jansson\memory.c"
+"E:\git\jansson\pack_unpack.c"
+"E:\git\jansson\strbuffer.c"
+"E:\git\jansson\strconv.c"
+"E:\git\jansson\utf.c"
+"E:\git\jansson\value.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP41.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\jansson.lib"  .\Debug\dump.obj .\Debug\error.obj .\Debug\hashtable.obj .\Debug\load.obj .\Debug\memory.obj .\Debug\pack_unpack.obj .\Debug\strbuffer.obj .\Debug\strconv.obj .\Debug\utf.obj .\Debug\value.obj "
+<h3>Output Window</h3>
+Compiling...
+dump.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+error.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+hashtable.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+load.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+e:\git\jansson\load.c(497) : warning C4244: '=' : conversion from '__int64 ' to 'long ', possible loss of data
+memory.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+pack_unpack.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+strbuffer.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+strconv.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+utf.c
+value.c
+e:\git\jansson\jansson.h(62) : error C2632: 'long' followed by 'long' is illegal
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+jansson.lib - 9 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

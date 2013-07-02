@@ -1,0 +1,2 @@
+errors in directory e:\projects\dokanlib\dokan
+e:\winddk\3790~1.183\bin\makefile.new(1082) : error U1050: Your .\sources. file must define the TARGETPATH= macro

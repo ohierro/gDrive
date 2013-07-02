@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vDrive - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSPAE.tmp" with contents
+[
+lib\comm.lib lib\vDriveComm.lib lib\dokan.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/vDrive.pdb" /debug /machine:I386 /out:"Debug/vDrive.exe" /pdbtype:sept 
+.\Debug\file.obj
+.\Debug\Preferences.obj
+.\Debug\StringConversions.obj
+.\Debug\testSoap.obj
+.\Debug\trace.obj
+.\Debug\vDrive.obj
+.\Debug\sqlite3.obj
+.\Debug\gdrive.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSPAE.tmp"
+<h3>Output Window</h3>
+Linking...
+gdrive.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) struct AuthData * __stdcall registerApp(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)" (__imp_?registerApp@@YGPAUAuthData@@AAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@@Z)
+gdrive.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) struct AuthData * __stdcall renewAuth(class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > &)" (__imp_?renewAuth@@YGPAUAuthData@@AAV?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@@Z)
+Debug/vDrive.exe : fatal error LNK1120: 2 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+vDrive.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
